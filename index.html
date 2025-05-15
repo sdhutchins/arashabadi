@@ -4,11 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Arash B. Abadi</title>
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <style>
     /* Reset and global styling */
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: 'Open Sans', sans-serif;
       background: #f4f4f4;
@@ -51,6 +59,9 @@
     nav {
       background: #fff;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
     nav ul {
       display: flex;
@@ -97,7 +108,7 @@
       border-radius: 50%;
       margin-bottom: 1em;
     }
-    /* Projects and Others cards */
+    /* Cards */
     .card-container {
       display: flex;
       flex-wrap: wrap;
@@ -123,7 +134,7 @@
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 0.5em;
     }
-    /* Tab content styling */
+    /* Tab content */
     .tab-content {
       display: none;
       animation: fadeIn 0.5s ease-in-out;
@@ -135,7 +146,7 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
-    /* Responsive adjustments */
+    /* Responsive */
     @media (max-width: 768px) {
       header h1 {
         font-size: 2.5rem;
@@ -150,47 +161,47 @@
   </style>
 </head>
 <body>
-  <!-- Hero Header Section -->
-  <header>
+  <!-- Hero Header -->
+  <header data-aos="fade-down">
     <div>
       <h1>Arash B. Abadi</h1>
     </div>
   </header>
 
-  <!-- Navigation Tabs -->
+  <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="#" class="tab-link active" data-tab="about">About</a></li>
-      <li><a href="#" class="tab-link" data-tab="projects">Projects</a></li>
-      <li><a href="#" class="tab-link" data-tab="others">Others</a></li>
+      <li><a href="#about" class="tab-link active" data-tab="about">About</a></li>
+      <li><a href="#projects" class="tab-link" data-tab="projects">Projects</a></li>
+      <li><a href="#others" class="tab-link" data-tab="others">Others</a></li>
     </ul>
   </nav>
 
-  <!-- Main Content Container -->
+  <!-- Main Container -->
   <div class="container">
+
     <!-- About Section -->
-    <section id="about" class="tab-content active">
+    <section id="about" class="tab-content active" data-aos="fade-up">
       <h2>About Me</h2>
       <img src="https://source.unsplash.com/200x200/?portrait" alt="Profile Image" class="profile-img">
-      <p>Arash is a highly motivated PhD student at the University of Alabama at Birmingham, possessing a strong background in bioinformatics. He aspires to contribute to groundbreaking research in Cancer Immunology. Having published multiple articles in reputable journals, along with international conference posters, he continues to expand his skills and is actively seeking opportunities to further contribute to cancer immunotherapy research in both dry lab and wet lab settings.</p>
+      <p>Arash is a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and cancer immunology research.</p>
       <h3>Contact</h3>
       <p>Email: <a href="mailto:abaghera@uab.edu">abaghera@uab.edu</a></p>
       <p>Gmail: <a href="mailto:arash.bagherabadi@gmail.com">arash.bagherabadi@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/arashbagherabadi" target="_blank">arashbagherabadi</a></p>
-      <p>X: <a href="https://twitter.com/arash_b_abadi" target="_blank">arash_b_abadi</a></p>
+      <p>X: <a href="https://twitter.com/arash_b_abadi" target="_blank">@arash_b_abadi</a></p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="tab-content">
+    <section id="projects" class="tab-content" data-aos="fade-up">
       <h2>Projects</h2>
-      <p>Will be updated...</p>
       <div class="card-container">
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="https://source.unsplash.com/400x300/?data,science" alt="Project One">
           <h4>Project One</h4>
           <p>description</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <img src="https://source.unsplash.com/400x300/?research,lab" alt="Project Two">
           <h4>Project Two</h4>
           <p>description</p>
@@ -198,56 +209,34 @@
       </div>
     </section>
 
+    <!-- Others Section -->
+    <section id="others" class="tab-content" data-aos="fade-up">
+      <h2>Others</h2>
+      <div class="card-container">
+        <div class="card" data-aos="zoom-in">
+          <a href="https://github.com/arashabadi/patog" target="_blank">
+            <img src="https://raw.githubusercontent.com/arashabadi/patog/main/images/PATOG.png" alt="PATOG">
+          </a>
+          <h4>PATOG</h4>
+          <p>Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.</p>
+        </div>
+      </div>
+    </section>
 
-<!-- Others Section -->
-<section id="others" class="tab-content">
-  <h2>Others</h2>
-  <div class="card-container">
-    <div class="card">
-      <a href="https://github.com/arashabadi/patog" target="_blank">
-        <img src="https://raw.githubusercontent.com/arashabadi/patog/main/images/PATOG.png" alt="PATOG">
-      </a>
-      <h4>PATOG</h4>
-      <p>Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.</p>
-    </div>
   </div>
-</section>
-  </div>
-  
 
-  <!-- JavaScript for Tab Switching -->
-  <script>
-    const tabLinks = document.querySelectorAll('.tab-link');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabLinks.forEach(link => {
-      link.addEventListener('click', (event) => {
-        event.preventDefault();
-        const targetTab = link.getAttribute('data-tab');
-
-        // Remove active class from all tabs and links
-        tabLinks.forEach(link => link.classList.remove('active'));
-        tabContents.forEach(content => content.classList.remove('active'));
-
-        // Add active class to selected tab and corresponding content
-        link.classList.add('active');
-        document.getElementById(targetTab).classList.add('active');
-      });
-    });
-  </script>
-
-    <!-- JavaScript for Tab Switching -->
-  <script>
-    // your JS code...
-  </script>
-
-  <!-- 👇 Footer here -->
+  <!-- Footer -->
   <footer style="text-align: center; padding: 1em; background: #f0f0f0; font-size: 0.9em; color: #777;">
     © 2025 Arash Bagherabadi. All rights reserved.
   </footer>
-</body>
-</html>
 
-
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
 </body>
 </html>
