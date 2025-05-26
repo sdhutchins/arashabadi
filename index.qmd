@@ -3,7 +3,7 @@ title: "Arash B. Abadi"
 ---
 
 ::: {.hero}
-# Arash B. Abadi {.display-1}
+# Arash B. Abadi
 
 PhD Student, Immunology and Bioinformatics Stuff
 :::
@@ -27,3 +27,11 @@ This is the homepage of my personal website.
 ## Projects
 
 - [PATOG Book](https://arashabadi.github.io/patog/_book/index.html) - A Quarto-based online HTML book for the PATOG project.
+
+<button class="theme-toggle" onclick="toggleTheme()">Toggle Day/Night Mode</button>
+
+<script>
+function toggleTheme() {
+  document.body.classList.toggle('dark-mode');
+}
+</script>

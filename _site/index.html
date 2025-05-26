@@ -4743,7 +4743,7 @@ vertical-align: -.125em;
 }</script>
 
 
-<style type="text/css">:root {--primary-color: #2c3e50;--secondary-color: #3498db;--accent-color: #e74c3c;--text-color: #2c3e50;--background-color: #ffffff;}body {font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;color: var(--text-color);line-height: 1.6;}.hero {background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);color: white;padding: 4rem 2rem;text-align: center;margin-bottom: 2rem;}.hero h1 {font-size: 3.5rem;margin-bottom: 1rem;}.content {max-width: 800px;margin: 0 auto;padding: 2rem;}.navbar {background-color: var(--background-color);box-shadow: 0 2px 4px rgba(0,0,0,0.1);}.navbar-brand {font-weight: bold;color: var(--primary-color);}.nav-link {color: var(--text-color);}.nav-link:hover {color: var(--secondary-color);}.card {border: none;box-shadow: 0 2px 4px rgba(0,0,0,0.1);transition: transform 0.3s ease;}.card:hover {transform: translateY(-5px);}footer {background-color: var(--primary-color);color: white;padding: 2rem 0;margin-top: 4rem;text-align: center;} </style>
+<style type="text/css">:root {--primary-color: #2c3e50;--secondary-color: #3498db;--accent-color: #e74c3c;--text-color: #2c3e50;--background-color: #ffffff;}body {font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;color: var(--text-color);line-height: 1.6;}.hero {background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);color: white;padding: 4rem 2rem;text-align: center;margin-bottom: 2rem;}.hero h1 {font-size: 3.5rem;margin-bottom: 1rem;}.content {max-width: 800px;margin: 0 auto;padding: 2rem;}.navbar {background-color: var(--background-color);box-shadow: 0 2px 4px rgba(0,0,0,0.1);}.navbar-brand {font-weight: bold;color: var(--primary-color);}.nav-link {color: var(--text-color);}.nav-link:hover {color: var(--secondary-color);}.card {border: none;box-shadow: 0 2px 4px rgba(0,0,0,0.1);transition: transform 0.3s ease;}.card:hover {transform: translateY(-5px);}footer {background-color: var(--primary-color);color: white;padding: 2rem 0;margin-top: 4rem;text-align: center;}.theme-toggle {position: fixed;top: 20px;right: 20px;z-index: 1000;background: transparent;color: #333;border: none;font-size: 24px;cursor: pointer;transition: color 0.3s ease;}.theme-toggle:hover {color: #555;}body.dark-mode {background-color: #222;color: #fff;}body.dark-mode a {color: #8ab4f8;}body.dark-mode .hero {background-color: #333;}body.dark-mode .content {background-color: #333;} </style>
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -4822,11 +4822,12 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="arash-b.-abadi" class="level1 display-1 hero">
-<h1 class="display-1">Arash B. Abadi</h1>
+<section id="arash-b.-abadi" class="level1 hero">
+<h1>Arash B. Abadi</h1>
 <p>PhD Student, Immunology and Bioinformatics Stuff</p>
 </section>
-<section id="about-me" class="level2 content">
+<div class="content">
+<section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About Me</h2>
 <p>I am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.</p>
 <section id="contact" class="level3">
@@ -4837,12 +4838,31 @@ vertical-align: -.125em;
 <li>LinkedIn: <a href="https://www.linkedin.com/in/arashbagherabadi">arashbagherabadi</a></li>
 <li>X: <a href="https://twitter.com/arash_b_abadi"><span class="citation" data-cites="arash_b_abadi">@arash_b_abadi</span></a></li>
 </ul>
+</section>
+</section>
+<section id="welcome-to-my-personal-website" class="level1">
+<h1>Welcome to My Personal Website</h1>
+<p>This is the homepage of my personal website.</p>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<ul>
+<li><a href="https://arashabadi.github.io/patog/_book/index.html">PATOG Book</a> - A Quarto-based online HTML book for the PATOG project.</li>
+</ul>
+<button class="theme-toggle" onclick="toggleTheme()">
+Toggle Day/Night Mode
+</button>
+<script>
+function toggleTheme() {
+  document.body.classList.toggle('dark-mode');
+}
+</script>
 
 
 <!-- -->
 
 </section>
 </section>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -5318,7 +5338,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>::: {.hero}</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Arash B. Abadi {.display-1}</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Arash B. Abadi</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>PhD Student, Immunology and Bioinformatics Stuff</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>:::</span>
@@ -5333,7 +5353,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Email: <span class="co">[</span><span class="ot">abaghera@uab.edu</span><span class="co">](mailto:abaghera@uab.edu)</span></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Gmail: <span class="co">[</span><span class="ot">arash.bagherabadi@gmail.com</span><span class="co">](mailto:arash.bagherabadi@gmail.com)</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>LinkedIn: <span class="co">[</span><span class="ot">arashbagherabadi</span><span class="co">](https://www.linkedin.com/in/arashbagherabadi)</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>X: <span class="co">[</span><span class="ot">@arash_b_abadi</span><span class="co">](https://twitter.com/arash_b_abadi)</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal><i class="bi"></i></button></pre></div>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>X: <span class="co">[</span><span class="ot">@arash_b_abadi</span><span class="co">](https://twitter.com/arash_b_abadi)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="fu"># Welcome to My Personal Website</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>This is the homepage of my personal website.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Projects</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">PATOG Book</span><span class="co">](https://arashabadi.github.io/patog/_book/index.html)</span> - A Quarto-based online HTML book for the PATOG project.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>&lt;button class=&quot;theme-toggle&quot; onclick=&quot;toggleTheme()&quot;&gt;Toggle Day/Night Mode&lt;/button&gt;</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>&lt;script&gt;</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">toggleTheme</span>() {</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  <span class="bu">document</span><span class="op">.</span><span class="at">body</span><span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">toggle</span>(<span class="st">&#39;dark-mode&#39;</span>)<span class="op">;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>&lt;/script&gt;</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
