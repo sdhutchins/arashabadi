@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Arash B. Abadi"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: others.qmd
+        text: Others
+    right:
+      - icon: github
+        href: https://github.com/arashabadi
+      - icon: linkedin
+        href: https://www.linkedin.com/in/arashbagherabadi
+      - icon: twitter
+        href: https://twitter.com/arash_b_abadi
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    code-fold: true
+    code-tools: true
+    code-link: true
+    self-contained: true
+
+execute:
+  freeze: auto 

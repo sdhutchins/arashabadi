@@ -1,0 +1,30 @@
+---
+title: "Projects"
+---
+
+::: {.content}
+# Research Projects
+
+## Current Projects
+
+### Project One
+**Description:** Brief description of your first project.
+
+**Technologies:** List of technologies used
+
+**Link:** [Project Repository](https://github.com/yourusername/project1)
+
+### Project Two
+**Description:** Brief description of your second project.
+
+**Technologies:** List of technologies used
+
+**Link:** [Project Repository](https://github.com/yourusername/project2)
+
+## Other Projects
+
+### PATOG
+**Description:** Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.
+
+**Link:** [PATOG Repository](https://github.com/arashabadi/patog)
+::: 
