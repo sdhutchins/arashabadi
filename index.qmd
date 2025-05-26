@@ -19,3 +19,11 @@ I am a highly motivated PhD student at the University of Alabama at Birmingham, 
 - Gmail: [arash.bagherabadi@gmail.com](mailto:arash.bagherabadi@gmail.com)
 - LinkedIn: [arashbagherabadi](https://www.linkedin.com/in/arashbagherabadi)
 - X: [@arash_b_abadi](https://twitter.com/arash_b_abadi)
+
+# Welcome to My Personal Website
+
+This is the homepage of my personal website.
+
+## Projects
+
+- [PATOG Book](https://arashabadi.github.io/patog/_book/index.html) - A Quarto-based online HTML book for the PATOG project.
