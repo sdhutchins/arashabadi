@@ -34,47 +34,35 @@
     body {
       font-family: "Open Sans", sans-serif;
       color: var(--text-dark);
+      background: var(--bg3);
     }
 
     /* ========= HERO HEADER ======== */
-    header {
+    .hero {
+      position: relative;
       height: 100vh;
+      overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: var(--bg1);
       color: var(--text-light);
-      position: relative;
-      overflow: hidden;
     }
-    header::after {
-      content: "";
+    .hero video.bg-video {
       position: absolute;
-      top: -20%;
-      right: -20%;
-      width: 60vmax;
-      height: 60vmax;
-      background: var(--secondary);
-      opacity: 0.15;
-      border-radius: 50%;
-      animation: blob 25s infinite ease-in-out;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.6);
     }
-    @keyframes blob {
-      0%, 100% {
-        transform: translate(0, 0) scale(1);
-      }
-      33% {
-        transform: translate(-20%, 10%) scale(1.2);
-      }
-      66% {
-        transform: translate(-10%, -10%) scale(0.9);
-      }
-    }
-    header h1 {
+    .hero h1 {
       font-family: "Poppins", sans-serif;
       font-size: 3.5rem;
       letter-spacing: 1px;
+      z-index: 1;
     }
 
     /* ========= NAVIGATION ======== */
@@ -187,7 +175,7 @@
 
     /* ========= RESPONSIVE ======== */
     @media (max-width: 768px) {
-      header h1 {
+      .hero h1 {
         font-size: 2.8rem;
       }
       section {
@@ -201,14 +189,18 @@
 </head>
 <body>
   <!-- ========= HERO HEADER ======== -->
-  <header data-aos="fade-down">
+  <header class="hero" data-aos="fade-down">
+    <video class="bg-video" autoplay muted loop playsinline>
+      <source src="assets/hero.mp4" type="video/mp4" />
+      <!-- fallback to image -->
+    </video>
     <h1>Arash B. Abadi</h1>
   </header>
 
   <!-- ========= NAVIGATION ======== -->
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
+      <li><a href="#about" class="active">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#others">Others</a></li>
     </ul>
