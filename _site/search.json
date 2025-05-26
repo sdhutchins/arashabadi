@@ -4,18 +4,11 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Description: Brief description of your first project.\nTechnologies: List of technologies used\nLink: Project Repository\n\n\n\nDescription: Brief description of your second project.\nTechnologies: List of technologies used\nLink: Project Repository\n\n\n\n\n\n\nDescription: Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.\nLink: PATOG Repository"
+    "text": "Description: Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.\nLink: PATOG Repository"
   },
   {
-    "objectID": "projects.html#current-projects",
-    "href": "projects.html#current-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Description: Brief description of your first project.\nTechnologies: List of technologies used\nLink: Project Repository\n\n\n\nDescription: Brief description of your second project.\nTechnologies: List of technologies used\nLink: Project Repository"
-  },
-  {
-    "objectID": "projects.html#other-projects",
-    "href": "projects.html#other-projects",
+    "objectID": "projects.html#patog",
+    "href": "projects.html#patog",
     "title": "Projects",
     "section": "",
     "text": "Description: Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.\nLink: PATOG Repository"

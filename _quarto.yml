@@ -8,12 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: projects.qmd
         text: Projects
-      - href: others.qmd
-        text: Others
     right:
       - icon: github
         href: https://github.com/arashabadi
