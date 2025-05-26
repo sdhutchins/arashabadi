@@ -5,13 +5,13 @@ title: "Arash B. Abadi"
 ::: {.hero}
 # Arash B. Abadi {.display-1}
 
-PhD Student in Bioinformatics and Cancer Immunology
+PhD Student, Immunology and Bioinformatics Stuff
 :::
 
 ::: {.content}
 ## About Me
 
-I am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and cancer immunology research.
+I am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.
 
 ### Contact
 
@@ -19,11 +19,3 @@ I am a highly motivated PhD student at the University of Alabama at Birmingham, 
 - Gmail: [arash.bagherabadi@gmail.com](mailto:arash.bagherabadi@gmail.com)
 - LinkedIn: [arashbagherabadi](https://www.linkedin.com/in/arashbagherabadi)
 - X: [@arash_b_abadi](https://twitter.com/arash_b_abadi)
-
-## Research Interests
-
-- Bioinformatics
-- Cancer Immunology
-- Single-cell Analysis
-- Machine Learning in Biology
-::: 
