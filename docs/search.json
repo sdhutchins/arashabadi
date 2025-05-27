@@ -24,14 +24,14 @@
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Arash B. Abadi",
-    "section": "About Me",
-    "text": "About Me\nI am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.\n\nContact\n\nEmail: abaghera@uab.edu\nGmail: arash.bagherabadi@gmail.com\nLinkedIn: arashbagherabadi\nX: @arash_b_abadi"
+    "section": "1.1 About Me",
+    "text": "1.1 About Me\nI am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.\n\n1.1.1 Contact\n\nEmail: abaghera@uab.edu\nGmail: arash.bagherabadi@gmail.com\nLinkedIn: arashbagherabadi\nX: @arash_b_abadi"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Arash B. Abadi",
-    "section": "Projects",
-    "text": "Projects\n\nPATOG Book - A Quarto-based online HTML book for the PATOG project.\n\n\nToggle Day/Night Mode"
+    "section": "2.1 Projects",
+    "text": "2.1 Projects\n\nPATOG Book - A Quarto-based online HTML book for the PATOG project.\n\n\nToggle Day/Night Mode"
   }
 ]
