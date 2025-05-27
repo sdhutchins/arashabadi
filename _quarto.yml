@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Arash B. Abadi"
@@ -22,11 +22,12 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: false
+    toc: true
+    number-sections: true
     code-fold: true
     code-tools: true
-    code-link: true
-    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
 
 execute:
   freeze: auto 
