@@ -26,7 +26,7 @@ This is the homepage of my personal website.
 
 ## Projects
 
-- [PATOG Book](https://arashabadi.github.io/patog/docs/index.html) - A Quarto-based online HTML book for the PATOG project.
+- [PATOG Book](https://arashabadi.github.io/patog/) - A Quarto-based online HTML book for the PATOG project.
 
 <button class="theme-toggle" onclick="toggleTheme()">Toggle Day/Night Mode</button>
 
