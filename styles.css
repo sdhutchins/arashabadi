@@ -70,6 +70,11 @@ footer {
   text-align: center;
 }
 
+/* Hide section numbers */
+.header-section-number {
+  display: none !important;
+}
+
 /* Day/Night Mode Toggle Button */
 .theme-toggle {
   position: fixed;
