@@ -4,34 +4,41 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Description: Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.\nLink: PATOG Repository"
+    "text": "A curated collection of resources for learning Bioinformatics, Data Science, Machine Learning, and related fields. This project aims to provide comprehensive learning materials and practical examples for students and researchers in the field.\nTechnologies: Quarto, R, Python, Bioinformatics Tools\nView Project →"
   },
   {
     "objectID": "projects.html#patog",
     "href": "projects.html#patog",
     "title": "Projects",
     "section": "",
-    "text": "Description: Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.\nLink: PATOG Repository"
+    "text": "A curated collection of resources for learning Bioinformatics, Data Science, Machine Learning, and related fields. This project aims to provide comprehensive learning materials and practical examples for students and researchers in the field.\nTechnologies: Quarto, R, Python, Bioinformatics Tools\nView Project →"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Arash B. Abadi",
     "section": "",
-    "text": "PhD Student, Immunology and Bioinformatics Stuff"
+    "text": "I am a highly motivated PhD student in Lund and Randall labs at UAB, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I’m actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. I thrive in collaborative environments, enjoy solving complex scientific problems. Eager to contribute to innovative, interdisciplinary research while continuing to learn from leaders in the field.\n\n\n\n\nEmail: abaghera@uab.edu\nGmail: arash.bagherabadi@gmail.com\nLinkedIn: arashbagherabadi\nX: @arash_b_abadi\n\n\n\n\n\n\nA comprehensive Quarto-based online HTML book for the PATOG project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.\nView Project →\n\n\nToggle Day/Night Mode"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
     "title": "Arash B. Abadi",
-    "section": "About Me",
-    "text": "About Me\nI am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.\n\nContact\n\nEmail: abaghera@uab.edu\nGmail: arash.bagherabadi@gmail.com\nLinkedIn: arashbagherabadi\nX: @arash_b_abadi"
+    "section": "",
+    "text": "I am a highly motivated PhD student in Lund and Randall labs at UAB, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I’m actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. I thrive in collaborative environments, enjoy solving complex scientific problems. Eager to contribute to innovative, interdisciplinary research while continuing to learn from leaders in the field."
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
     "title": "Arash B. Abadi",
-    "section": "Projects",
-    "text": "Projects\n\nPATOG Book - A Quarto-based online HTML book for the PATOG project.\n\n\nToggle Day/Night Mode"
+    "section": "",
+    "text": "Email: abaghera@uab.edu\nGmail: arash.bagherabadi@gmail.com\nLinkedIn: arashbagherabadi\nX: @arash_b_abadi"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Arash B. Abadi",
+    "section": "",
+    "text": "A comprehensive Quarto-based online HTML book for the PATOG project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.\nView Project →\n\n\nToggle Day/Night Mode"
   }
 ]

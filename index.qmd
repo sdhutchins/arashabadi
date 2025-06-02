@@ -2,31 +2,26 @@
 title: "Arash B. Abadi"
 ---
 
-::: {.hero}
-# Arash B. Abadi
-
-PhD Student, Immunology and Bioinformatics Stuff
-:::
-
 ::: {.content}
-## About Me
+## Welcome!
 
-I am a highly motivated PhD student at the University of Alabama at Birmingham, specializing in bioinformatics and immunology research.
+I am a highly motivated PhD student in Lund and Randall labs at UAB, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. I thrive in collaborative environments, enjoy solving complex scientific problems. Eager to contribute to innovative, interdisciplinary research while continuing to learn from leaders in the field.
 
-### Contact
+## Contact
 
 - Email: [abaghera@uab.edu](mailto:abaghera@uab.edu)
 - Gmail: [arash.bagherabadi@gmail.com](mailto:arash.bagherabadi@gmail.com)
 - LinkedIn: [arashbagherabadi](https://www.linkedin.com/in/arashbagherabadi)
 - X: [@arash_b_abadi](https://twitter.com/arash_b_abadi)
 
-# Welcome to My Personal Website
+## Featured Projects
 
-This is the homepage of my personal website.
+::: {.card}
+### PATOG Book
+A comprehensive Quarto-based online HTML book for the PATOG project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.
 
-## Projects
-
-- [PATOG Book](https://arashabadi.github.io/patog/) - A Quarto-based online HTML book for the PATOG project.
+[View Project →](https://arashabadi.github.io/patog/)
+:::
 
 <button class="theme-toggle" onclick="toggleTheme()">Toggle Day/Night Mode</button>
 

@@ -1,44 +1,61 @@
 /* Custom styles for the website */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
 :root {
   --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --accent-color: #e74c3c;
+  --secondary-color: #34495e;
+  --accent-color: #3498db;
   --text-color: #2c3e50;
   --background-color: #ffffff;
+  --code-background: #f8f9fa;
 }
 
 body {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Code Pro', 'JetBrains Mono', monospace;
+  line-height: 1.5;
   color: var(--text-color);
-  line-height: 1.6;
-}
-
-.hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-  color: white;
-  padding: 4rem 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
 }
 
 .content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem 2rem;
+}
+
+.content h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-color);
+  letter-spacing: -0.5px;
+}
+
+.content h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.content h3 {
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .navbar {
   background-color: var(--background-color);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
 }
 
 .navbar-brand {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--primary-color);
 }
 
@@ -52,22 +69,26 @@ body {
 
 /* Card styles for projects */
 .card {
-  border: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  transition: transform 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Footer styles */
 footer {
   background-color: var(--primary-color);
   color: white;
-  padding: 2rem 0;
-  margin-top: 4rem;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 /* Hide section numbers */
@@ -84,7 +105,7 @@ footer {
   background: transparent;
   color: #333;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -103,10 +124,55 @@ body.dark-mode a {
   color: #8ab4f8;
 }
 
-body.dark-mode .hero {
+body.dark-mode .content {
   background-color: #333;
 }
 
-body.dark-mode .content {
-  background-color: #333;
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--code-background);
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* Social icons */
+.navbar-nav .nav-link {
+  color: var(--primary-color);
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+  
+  .content h1 {
+    font-size: 1.75rem;
+  }
+  
+  .content h2 {
+    font-size: 1.35rem;
+  }
+  
+  .content h3 {
+    font-size: 1.1rem;
+  }
 } 

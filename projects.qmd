@@ -5,8 +5,11 @@ title: "Projects"
 ::: {.content}
 # Projects
 
+::: {.card}
 ## PATOG
-**Description:** Curated Collection of Resources to learn Bioinformatics, Data Science, ML, etc.
+A curated collection of resources for learning Bioinformatics, Data Science, Machine Learning, and related fields. This project aims to provide comprehensive learning materials and practical examples for students and researchers in the field.
 
-**Link:** [PATOG Repository](https://github.com/arashabadi/patog)
+**Technologies:** Quarto, R, Python, Bioinformatics Tools
+
+[View Project →](https://github.com/arashabadi/patog)
 ::: 
