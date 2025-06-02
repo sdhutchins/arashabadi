@@ -5,7 +5,7 @@ title: "Arash B. Abadi"
 ::: {.content}
 ## Welcome!
 
-I am a highly motivated PhD student in Lund and Randall labs at UAB, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. I thrive in collaborative environments, enjoy solving complex scientific problems. Eager to contribute to innovative, interdisciplinary research while continuing to learn from leaders in the field.
+A highly motivated PhD student in Lund and Randall labs at [UAB](https://www.uab.edu/home/), with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. 
 
 ## Contact
 
@@ -17,8 +17,8 @@ I am a highly motivated PhD student in Lund and Randall labs at UAB, with growin
 ## Featured Projects
 
 ::: {.card}
-### PATOG Book
-A comprehensive Quarto-based online HTML book for the PATOG project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.
+### PATOQ Book
+A comprehensive Quarto-based online HTML book for the PATOQ project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.
 
 [View Project →](https://arashabadi.github.io/patoq/)
 :::
