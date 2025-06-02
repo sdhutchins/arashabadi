@@ -1,17 +1,31 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "A curated collection of resources for learning Bioinformatics, Data Science, Machine Learning, and related fields. This project aims to provide comprehensive learning materials and practical examples for students and researchers in the field.\nTechnologies: Quarto, R, Python, Bioinformatics Tools\nView Project →"
+    "text": "Journal: Genes – MDPI\nDate: June 10, 2023 View Publication →\n\n\n\nJournal: Genes – MDPI\nDate: May 8, 2022 View Publication →\n\n\n\nJournal: Pharmaceutics – MDPI\nDate: Feb 25, 2022 View Publication →"
   },
   {
-    "objectID": "projects.html#patog",
-    "href": "projects.html#patog",
-    "title": "Projects",
+    "objectID": "publications.html#ccnd1-overexpression-in-idiopathic-dilated-cardiomyopathy-a-promising-biomarker",
+    "href": "publications.html#ccnd1-overexpression-in-idiopathic-dilated-cardiomyopathy-a-promising-biomarker",
+    "title": "Publications",
     "section": "",
-    "text": "A curated collection of resources for learning Bioinformatics, Data Science, Machine Learning, and related fields. This project aims to provide comprehensive learning materials and practical examples for students and researchers in the field.\nTechnologies: Quarto, R, Python, Bioinformatics Tools\nView Project →"
+    "text": "Journal: Genes – MDPI\nDate: June 10, 2023 View Publication →"
+  },
+  {
+    "objectID": "publications.html#correlation-of-ntrk1-downregulation-with-low-levels-of-tumor-infiltrating-immune-cells-and-poor-prognosis-of-prostate-cancer-revealed-by-gene-network-analysis",
+    "href": "publications.html#correlation-of-ntrk1-downregulation-with-low-levels-of-tumor-infiltrating-immune-cells-and-poor-prognosis-of-prostate-cancer-revealed-by-gene-network-analysis",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal: Genes – MDPI\nDate: May 8, 2022 View Publication →"
+  },
+  {
+    "objectID": "publications.html#targeting-protein-kinases-and-epigenetic-control-as-combinatorial-therapy-options-for-advanced-prostate-cancer-treatment",
+    "href": "publications.html#targeting-protein-kinases-and-epigenetic-control-as-combinatorial-therapy-options-for-advanced-prostate-cancer-treatment",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal: Pharmaceutics – MDPI\nDate: Feb 25, 2022 View Publication →"
   },
   {
     "objectID": "index.html",
