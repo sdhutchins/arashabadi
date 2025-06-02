@@ -20,7 +20,7 @@ I am a highly motivated PhD student in Lund and Randall labs at UAB, with growin
 ### PATOG Book
 A comprehensive Quarto-based online HTML book for the PATOG project, providing curated resources for learning Bioinformatics, Data Science, and Machine Learning.
 
-[View Project →](https://arashabadi.github.io/patog/)
+[View Project →](https://arashabadi.github.io/patoq/)
 :::
 
 <button class="theme-toggle" onclick="toggleTheme()">Toggle Day/Night Mode</button>
