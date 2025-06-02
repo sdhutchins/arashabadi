@@ -9,20 +9,20 @@ title: "Publications"
 ## CCND1 Overexpression in Idiopathic Dilated Cardiomyopathy: A Promising Biomarker?
 **Journal:** Genes – MDPI  
 **Date:** June 10, 2023
-[View Publication →](https://www.mdpi.com/2073-4425/14/6/1234)
+[View Publication →](https://www.mdpi.com/2073-4425/14/6/1243)
 :::
 
 ::: {.card}
 ## Correlation of NTRK1 Downregulation with Low Levels of Tumor-Infiltrating Immune Cells and Poor Prognosis of Prostate Cancer Revealed by Gene Network Analysis
 **Journal:** Genes – MDPI  
 **Date:** May 8, 2022
-[View Publication →](https://www.mdpi.com/2073-4425/13/5/836)
+[View Publication →](https://www.mdpi.com/2073-4425/13/5/840)
 :::
 
 ::: {.card}
 ## Targeting Protein Kinases and Epigenetic Control as Combinatorial Therapy Options for Advanced Prostate Cancer Treatment
 **Journal:** Pharmaceutics – MDPI  
 **Date:** Feb 25, 2022
-[View Publication →](https://www.mdpi.com/2073-4425/13/5/836)
+[View Publication →](https://www.mdpi.com/1999-4923/14/3/515)
 :::
 ::: 
