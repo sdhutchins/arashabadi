@@ -9,7 +9,7 @@
   --background-color: #1a1a1a;
   --code-background: #2d2d2d;
   --navbar-bg: #1a1a1a;
-  --navbar-text: #ffffff;
+  --navbar-text: #87CEEB;  /* Light blue color */
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--accent-color);
+  color: var(--navbar-text);  /* Keep the same color on hover */
 }
 
 /* Card styles for projects */

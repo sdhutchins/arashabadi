@@ -3,7 +3,6 @@ title: "Publications"
 ---
 
 ::: {.content}
-# Publications
 
 ::: {.card}
 ## CCND1 Overexpression in Idiopathic Dilated Cardiomyopathy: A Promising Biomarker?
