@@ -25,4 +25,17 @@ title: "Publications"
 **Date:** Feb 25, 2022
 [View Publication →](https://www.mdpi.com/1999-4923/14/3/515)
 :::
+
+<button class="theme-toggle" onclick="toggleTheme()">
+  <i class="fas fa-sun"></i>
+  <i class="fas fa-moon"></i>
+</button>
+
+<script>
+function toggleTheme() {
+  document.body.classList.toggle('dark-mode');
+}
+</script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 ::: 
