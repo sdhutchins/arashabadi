@@ -192,6 +192,7 @@ body.dark-mode .content {
 body.dark-mode .card {
   background-color: #2d2d2d;
   border-color: #404040;
+  color: #ffffff;
 }
 
 body.dark-mode .card:hover {
@@ -295,4 +296,17 @@ pre {
 /* Dark mode adjustments for icons */
 body.dark-mode .contact-list i {
   color: #8ab4f8;
+}
+
+/* Add these new styles */
+body.dark-mode .content h1 {
+  color: #ffffff;  /* or #e0e0e0 for a softer white */
+}
+
+body.dark-mode .content h2 {
+  color: #e0e0e0;  /* or #cccccc for a softer gray */
+}
+
+body.dark-mode .content h3 {
+  color: #e0e0e0;  /* or #cccccc for a softer gray */
 } 
