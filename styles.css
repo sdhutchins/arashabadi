@@ -189,4 +189,27 @@ pre {
   object-fit: cover;
   border: 3px solid var(--primary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact icons */
+.contact-list i {
+  width: 20px;
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Dark mode adjustments for icons */
+body.dark-mode .contact-list i {
+  color: #8ab4f8;
 } 
