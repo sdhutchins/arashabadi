@@ -5,9 +5,11 @@
   --primary-color: #2c3e50;
   --secondary-color: #34495e;
   --accent-color: #3498db;
-  --text-color: #2c3e50;
-  --background-color: #ffffff;
-  --code-background: #f8f9fa;
+  --text-color: #e0e0e0;
+  --background-color: #1a1a1a;
+  --code-background: #2d2d2d;
+  --navbar-bg: #1a1a1a;
+  --navbar-text: #ffffff;
 }
 
 body {
@@ -49,22 +51,22 @@ body {
 }
 
 .navbar {
-  background-color: var(--background-color);
+  background-color: var(--navbar-bg);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-size: 0.9rem;
 }
 
 .navbar-brand {
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--navbar-text);
 }
 
 .nav-link {
-  color: var(--text-color);
+  color: var(--navbar-text);
 }
 
 .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 /* Card styles for projects */
@@ -298,7 +300,6 @@ body.dark-mode .contact-list i {
   color: #8ab4f8;
 }
 
-/* Add these new styles */
 body.dark-mode .content h1 {
   color: #ffffff;  /* or #e0e0e0 for a softer white */
 }
@@ -309,4 +310,73 @@ body.dark-mode .content h2 {
 
 body.dark-mode .content h3 {
   color: #e0e0e0;  /* or #cccccc for a softer gray */
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  --navbar-bg: #ffffff;
+  --navbar-text: #2c3e50;
+}
+
+body.light-mode a {
+  color: var(--accent-color);
+}
+
+body.light-mode .content {
+  background-color: #ffffff;
+}
+
+body.light-mode .card {
+  background-color: #ffffff;
+  border-color: #e1e4e8;
+  color: var(--text-color);
+}
+
+body.light-mode .card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body.light-mode .contact-list i {
+  color: var(--accent-color);
+}
+
+body.light-mode .footer {
+  border-top-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+body.light-mode .footer a {
+  color: var(--accent-color);
+}
+
+body.light-mode .content h1 {
+  color: var(--primary-color);
+}
+
+body.light-mode .content h2 {
+  color: var(--secondary-color);
+}
+
+body.light-mode .content h3 {
+  color: var(--text-color);
+}
+
+/* Light Mode Navbar Styles */
+body.light-mode .navbar {
+  background-color: var(--navbar-bg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+body.light-mode .navbar-brand {
+  color: var(--navbar-text);
+}
+
+body.light-mode .nav-link {
+  color: var(--navbar-text);
+}
+
+body.light-mode .nav-link:hover {
+  color: var(--accent-color);
 } 

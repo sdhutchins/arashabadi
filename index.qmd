@@ -9,7 +9,7 @@ title: "Arash B. Abadi"
 
 ## Welcome!
 
-A highly motivated PhD student at the University of Alabama at Birmingham, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. 
+I am a highly motivated PhD student at the University of Alabama at Birmingham, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. 
 
 ## Contact
 
@@ -38,8 +38,12 @@ A comprehensive Quarto-based online HTML book for the PATOQ project, providing c
 </button>
 
 <script>
+// Set dark mode as default
+document.body.classList.add('dark-mode');
+
 function toggleTheme() {
   document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle('light-mode');
 }
 </script>
 
