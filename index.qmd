@@ -3,9 +3,13 @@ title: "Arash B. Abadi"
 ---
 
 ::: {.content}
+::: {.profile-image}
+![](images/profile.jpg){.profile-pic}
+:::
+
 ## Welcome!
 
-A highly motivated PhD student in Lund and Randall labs at [UAB](https://www.uab.edu/home/), with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. 
+A highly motivated PhD student at the University of Alabama at Birmingham, with growing experience in B cell biology in infection and regulatory T cell biology across cancer and obesity contexts. I'm actively building expertise in single-cell and spatial transcriptomics, bioinformatics pipelines, and machine learning, with a strong interest in their application to vaccines and immunotherapy. 
 
 ## Contact
 
